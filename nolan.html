@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Christopher Nolan</title>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;1,400&family=Inter:wght@300;400;500&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;1,400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="nolan.css">
+</head>
+<body>
+<div class="top-buttons">
+    <a href="https://www.instagram.com/christophernolann?xtok=MTQ4M2t5bjkwaDR5aQ%3D%3D/" target="_blank" class="instagram-link">
+        <img src="instagram.png" alt="Instagram">
+    </a>
+
+    <!-- Кнопка Музыка -->
+    <button id="musicBtn" onclick="toggleMusic()">♪ Music</button>
+</div>
+<audio id="myAudio" loop>
+    <source src="interstellar.mp3" type="audio/mpeg">
+</audio>
+<script src="nolan.js"></script>
+
+    <header class="hero">
+        <!-- Сама картинка, которая будет фоном -->
+        <img src="nolan.jpg" alt="Nolan" class="hero-bg-img">
+
+        <nav class="nav">
+            <div class="logo">The art of Nolan's movies</div>
+            <ul class="nav__links">
+                <li><a href="#locations">Filmography</a></li>
+                <li><a href="#biography">Biography</a></li>
+                <li><a href="#musee">Behind the scenes</a></li>
+                <li><a href="#nnnn">The Nolan method</a></li>
+            </ul>
+            
+        </nav>
+
+        <div class="hero__content">
+            <h1>Christopher Nolan</h1>
+            <p class="hero-quote">«Don't try to understand it. Feel it.»</p>
+            <p class="hero-desc">Explore the extraordinary world of Christopher Nolan, a visionary filmmaker who challenges the boundaries of storytelling. His films leave a lasting impression, inspiring audiences to see cinema, time, and reality from a completely different perspective. Discover the films, ideas, and creative vision behind some of the most thought-provoking masterpieces in modern cinema, where time, reality, and imagination intertwine.</p>
+        </div>
+
+        <a href="#locations" class="scroll">Scroll to explore ↓ </a>
+    </header>
+
+    <!-- ---------- movies --------- -->
+<section class="section" id="locations"> 
+
+  <div class="container">                   
+    <h2 class="title">Filmography</h2>
+    <p class="subtitle">Stories that challenge the boundaries of cinema</p>
+
+    <div class="locations">
+        <a href="https://en.wikipedia.org/wiki/The_Dark_Knight" target="_blank" class="loc loc--batman"><span>The Dark Knight</span></a>
+        <a href="https://en.wikipedia.org/wiki/Inception" target="_blank" class="loc loc--inception"><span>Inception</span></a>
+        <a href="https://en.wikipedia.org/wiki/The_Prestige" target="_blank" class="loc loc--prestige"><span>Prestige</span></a>
+        <a href="https://en.wikipedia.org/wiki/Interstellar_(film)" target="_blank"class="loc loc--interstellar"><span>Interstellar</span></a>
+        <a href="https://en.wikipedia.org/wiki/The_Odyssey_(2026_film)" class="loc loc--odyssey"><span>The Odyssey</span></a>
+        <a href="https://en.wikipedia.org/wiki/Oppenheimer_(film)" target="_blank" class="loc loc--oppenheimer"><span>Oppenheimer</span></a>
+        <a href="https://en.wikipedia.org/wiki/Insomnia_(2002_film)" target="_blank" class="loc loc--insomnia"><span>Insomnia</span></a>
+        <a href="https://en.wikipedia.org/wiki/Christopher_Nolan_filmography" target="_blank" class="loc loc--more">
+            <svg class="loc__arrow" viewBox="0 0 24 24"><path d="M7 17L17 7M9 7h8v8" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+            <span>Explore more on Wikipedia</span>
+        </a>
+
+    </div>
+    <p class="click">Click on each film to discover more</p>
+</div>
+</section>
+<!-- ===== FEATURED ===== -->
+<section class="featured" id="biography">
+  <div class="featured-box">
+
+    <h3 class="featured-title">Biography</h3>
+
+    <div class="featured-card">
+      <img src="christopher.jpg" alt="Villa Balbianello">
+
+      <div class="featured-text">
+        <h4>CHRISTOPHER NOLAN</h4>
+        <p class="featured-place">Genius Behind the Masterpieces</p>
+
+        <p>Christopher Nolan is a British-American filmmaker, screenwriter, and producer, widely recognized for his distinctive approach to storytelling and filmmaking. Born on July 30, 1970, in London, England, he developed an interest in cinema at an early age. Inspired by science fiction and the possibilities of filmmaking, Nolan began creating short films with his father’s Super 8 camera when he was just seven years old.</p>
+
+        <p>After studying English Literature at University College London, he continued pursuing his passion for cinema. His breakthrough came with Memento (2000), a psychological thriller that introduced audiences to his unconventional narrative style. Over the years, Nolan directed numerous acclaimed films, including The Dark Knight trilogy, Inception, Interstellar, Dunkirk, and Oppenheimer. <a href="https://en.wikipedia.org/wiki/Christopher_Nolan">Learn more</a></p>
+        
+      </div>
+    </div>
+
+  </div>
+</section>
+</section>
+
+  
+<!-- ===== SERVICES ===== -->
+<section class="services-section">
+  <div class="svc-box">
+   
+    <div class="svc-title">
+
+      <h2>Major Achievements of Christopher Nolan</h2>
+      <p>Christopher Nolan’s visionary storytelling, innovative filmmaking techniques, and dedication to his craft have brought him numerous international awards.</p>
+    </div>
+
+    <div class="svc-cards">
+      <div class="svc-card">
+        <img src="oscar.jpg" alt="">
+        <p>Academy Awards (Oscars)</p>
+      </div>
+      <div class="svc-card">
+        <img src="bafta.jpg" alt="">
+        <p>BAFTA Awards</p>
+      </div>
+      <div class="svc-card">
+        <img src="gga.jpg" alt="">
+        <p>Golden Globe Awards</p>
+      </div>
+    </div>
+
+  </div>
+ 
+
+</section>
+
+<!-- ===== OUR PORTFOLIOS ===== -->
+<section class="pf-section" id="musee">
+  <div class="pf-box">
+    <h3 class="pf-title">Behind the scenes: </h3>
+
+    <div class="pf-grid">
+      <a href="https://youtu.be/tjsUt6YW9go?si=NxYBfRWVWpd0376y" class="pf-card pf-1" target="_blank">
+  <small>SCI-FI/DRAMA, 2014</small>
+  <b>Interstellar</b>
+</a>
+<a href="https://youtu.be/uhqUMFlwxeo?si=N0-J77G772hQIouz" class="pf-card pf-2" target="_blank">
+  <small>BIOGRAPHICAL/DRAMA, 2023</small>
+  <b>Oppenheimer</b>
+</a>
+<a href="https://youtu.be/w1W5xaf9ACg?si=xYyGyQzcxWMCq37G" class="pf-card pf-3" target="_blank">
+  <small>SCI-FI/THRILLER, 2010</small>
+  <b>Inception</b>
+</a>
+<a href="https://youtu.be/zE01rTiMDuM?si=HWYfenytx3LfgrRTW" class="pf-card pf-4" target="_blank">
+  <small> MYTHOLOGICAL EPIC/FANTASY, 2026</small>
+  <b>The Odyssey</b>
+</a>
+    </div>
+  </div>
+</section>
+
+<!-- ===== TESTIMONIALS ===== -->
+<section class="test-section" id="nnnn">
+  <h2>THE NOLAN METHOD</h2>
+  <p class="test-sub">The Art of Storytelling</p>
+
+  <div class="test-slider">
+    <span class="quote">“</span>
+
+    <div class="test-text">
+      <p>Christopher Nolan is known for his unique approach to filmmaking, combining complex storytelling with extraordinary visual experiences.
+      His films often explore the nature of time, memory, dreams, and human perception. He frequently uses non-linear storytelling, practical effects, realistic settings, and powerful soundtracks to create unforgettable cinematic experiences.Rather than giving the audience all the answers, Nolan invites viewers to think, question, and discover the meaning behind every story.</p>
+      
+
+      <p>Nolan's cinema is not just about watching a story — it’s about experiencing it.</p>
+    </div>
+
+    <span class="quote">”</span>
+  </div>
+
+  <img class="test-avatar" src="imax.jpg" alt="">
+</section>
+
+<!-- ===== REVIEWS ===== -->
+<!-- ===== footer ===== -->
+
+<footer class="site-footer">
+    <div class="footer-frame">
+        <h3 class="footer-title">Cristopher Nolan • The art of filmmaking</h3>
+        <p class="footer-text">Some stories end when the screen goes black. </p>
+         <p class="footer-text">Others stay with us long after the credits roll.</p>
+        <p class="footer-text">Credits to ma cherie skhnzss</p>
+        <p class="footer-music">
+    Background track: <em>"Cornfield Chase" from Interstellar</em> 
+    <a href="https://en.wikipedia.org/wiki/Hans_Zimmer" target="_blank" class="footer-link">by Hans Zimmer</a>
+</p>
+<p>All rights reserved © 2026</p>
+        <div class="footer-bottom">
+            <span class="simply-lovely">THE END.OR IS IT?</span>
+            <span class="footer-author">by Kabulniyazova Malika</span>
+        </div>
+    </div>
+</footer>
+    </body>
+</html>
