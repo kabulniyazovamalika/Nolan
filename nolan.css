@@ -784,9 +784,10 @@ a.pf-card {
 }
 
 .hero__content {
-    margin: 20px auto;
-    padding: 0;
-    text-align: center;
+    margin: auto;
+    margin-bottom: 20 px
+    padding-top: 30px;
+
 }
 
 .hero__content h1 {
@@ -812,10 +813,10 @@ a.pf-card {
 }
 
 .scroll {
-    position: relative;
-    bottom: auto;
-    margin-top: 10px;
-    margin-bottom: 40px;
+    position: center;
+
+    margin-top: 0;
+    margin-bottom: 25px;
     font-size: 0.7rem;
 }
 
