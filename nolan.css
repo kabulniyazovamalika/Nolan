@@ -791,7 +791,7 @@ a.pf-card {
 }
 
 .hero__content h1 {
-    top: 0;
+    top: -200;
     position: static;
     font-size: 2.5rem;
     line-height: 1.1;
